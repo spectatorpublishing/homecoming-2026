@@ -2,7 +2,7 @@
 export default {
   title: 'Homecoming 2026: Title',
   letter: {
-    image: '/homecoming_illo.png',
+    image: '/homecoming_illo.jpeg',
     imageAlt: 'Homecoming 2026 illustration',
     salutation: 'Dear Reader,',
     paragraphs: [
