@@ -3,8 +3,7 @@ import './LetterFromEditor.css';
 function LetterFromEditor() {
   return (
     <section className="letter-section">
-      <div className="letter-image" />
-      <img src="/images/letter-from-editor.jpg" alt="Letter from the Editor" className="letter-image" />
+      <img src="/homecoming_illo.png" alt="Letter from the Editor" className="letter-image" />
 
       <div className="letter-content">
         <p className="letter-body">Dear Reader,</p>

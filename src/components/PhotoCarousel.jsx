@@ -30,7 +30,8 @@ function PhotoCarousel(){
         }
     }
     return(
-        <div style={{ width: '1440px', height: '901px', margin: '0 auto', backgroundColor: '#E2F0EC', position: 'relative' }}>
+        <div style={{ width: '100%', backgroundColor: '#E2F0EC' }}>
+        <div style={{ width: '1440px', height: '901px', margin: '0 auto', position: 'relative' }}>
             <div style={{width: '1059px', height: '50px', top: '77px', left: '191px', position: 'absolute', angle: '0 deg', opacity: '1', textAlign:'left'}}>
                 <h1 style={{ fontFamily: 'Source Serif Pro', fontWeight: 700, fontSize: '40px', lineHeight: '100%', textTransform: 'uppercase', color: '#1D3863' }}>FEATURED PHOTOS</h1>            
             </div>
@@ -89,6 +90,7 @@ function PhotoCarousel(){
                     }}>
                 </button>
             </div>
+        </div>
         </div>
     );
 }

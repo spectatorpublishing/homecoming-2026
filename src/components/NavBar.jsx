@@ -10,7 +10,7 @@ function NavBar() {
             />
 
             <div className="header1">
-                <h1>HOMECOMING 2026: TITLE</h1>
+                <h1>HOMECOMING 2026</h1>
             </div>
 
             <div className="bar">

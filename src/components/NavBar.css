@@ -40,6 +40,10 @@ body {
 
 
     box-shadow: 0px 4px 6px #00000040;
+
+    /* Keep the shadow above the next section's background */
+    position: relative;
+    z-index: 1;
 }
 
 /* Navigation links */

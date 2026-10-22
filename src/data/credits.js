@@ -103,6 +103,11 @@ const credits = {
   "Engineering": [
     { name: "Shriya Mani", role: "Co-Head of Engineering" },
     { name: "Julien Remy", role: "Co-Head of Engineering" },
+    { name: "Alex Moore", role: "Engineering Trainee" },
+    { name: "Ananya Mallu", role: "Engineering Trainee" },
+    { name: "Hunter Tabler", role: "Engineering Trainee" },
+    { name: "Joyce Ma", role: "Engineering Trainee" },
+    { name: "Sanem Kafali", role: "Engineering Trainee" },
   ],
 };
 
