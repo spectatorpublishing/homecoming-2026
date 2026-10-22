@@ -1,3 +1,4 @@
+//Feature is to be ran in webpage of 5510px height by 1440px width
 import React, { useState } from 'react';
 function PhotoCarousel(){
     const IMAGES = [
