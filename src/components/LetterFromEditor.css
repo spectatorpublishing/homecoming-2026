@@ -1,0 +1,82 @@
+.letter-section {
+  background-color: #1D3863;
+  color: #FFFFFF;
+  font-family: 'Bitter', serif;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 76px;
+  padding: 75px 110px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+}
+
+
+.letter-content {
+  width: 513px;
+  padding-top: 25px;
+}
+
+.letter-body {
+  font-family: 'Bitter', serif;
+  font-size: 15px;
+  line-height: 1.4;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+.signatures {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-top: 48px;
+}
+
+.signature {
+  text-align: center;
+  margin: 0;
+}
+
+.signature-name {
+  display: block;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 18px;
+}
+
+.signature-title {
+  display: block;
+  font-family: 'Bitter', serif;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .letter-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 40px 20px;
+  }
+
+  .letter-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    aspect-ratio: 488 / 694;
+  }
+
+  .letter-content {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .letter-body {
+    font-size: 14px;
+  }
+
+  .signatures {
+    justify-content: center;
+    margin-top: 32px;
+  }
+}
