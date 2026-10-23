@@ -26,12 +26,12 @@
 .letter-content {
   order: 1;
   width: 50rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .letter-body {
   font-family: 'Bitter', serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.8;
   margin: 0 0 0.5rem 0;
   text-align: left;
