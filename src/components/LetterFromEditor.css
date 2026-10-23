@@ -31,7 +31,7 @@
 
 .letter-body {
   font-family: 'Bitter', serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.8;
   margin: 0 0 0.5rem 0;
   text-align: left;
@@ -58,7 +58,7 @@
 .signature-title {
   display: block;
   font-family: 'Bitter', serif;
-  font-size: 1.5;
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {
