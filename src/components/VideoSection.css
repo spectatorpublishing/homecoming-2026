@@ -1,0 +1,22 @@
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 41.49px;
+}
+
+.video-section__item {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Instagram injects inline min/max widths; let the reel fill its column */
+.video-section .instagram-media {
+    min-width: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.video-section__item > blockquote a {
+    color: white;
+}

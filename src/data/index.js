@@ -7,4 +7,4 @@ import audio from './audioArticles'
 import crosswords from './crosswordsArticles'
 
 // Order of the article sections on the page
-export default [sports, arts, opinion, spectrum, audio, crosswords]
+export default [sports, arts, spectrum, audio, opinion, crosswords]

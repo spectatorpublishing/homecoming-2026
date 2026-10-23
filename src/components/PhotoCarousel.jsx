@@ -57,7 +57,7 @@ function PhotoCarousel(){
     return(
         <div id="photos" className="photo-carousel">
             <div className="photo-carousel__inner">
-                <h1 className="photo-carousel__heading">FEATURED PHOTOS</h1>
+                <h1 className="photo-carousel__heading">Homecoming past to present</h1>
                 <div className="photo-carousel__stage">
                     <button
                         className="photo-carousel__arrow photo-carousel__arrow--prev"

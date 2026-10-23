@@ -2,8 +2,10 @@ import NavBar from "./components/NavBar.jsx";
 import LetterFromEditor from "./components/LetterFromEditor.jsx";
 import PhotoCarousel from "./components/PhotoCarousel.jsx";
 import ArticleSection from "./components/ArticleSection.jsx";
+import VideoSection from "./components/VideoSection.jsx";
 import Credits from "./components/Credits.jsx";
 import sections from "./data/index.js";
+import videos from "./data/videos.js";
 import "./components/ArticleCard.css";
 
 // Page order follows the Figma mockup (homecoming_SE.png):
@@ -23,6 +25,11 @@ function App() {
             articles={section.articles}
           />
         ))}
+        <VideoSection
+          id={videos.id}
+          sectionTitle={videos.title}
+          reels={videos.reels}
+        />
       </div>
       <Credits />
     </>

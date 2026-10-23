@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import './NavBar.css';
 import sections from '../data/index.js';
+import videos from '../data/videos.js';
 
 function NavBar() {
     // Only used on mobile, where the bar collapses into a hamburger menu
@@ -52,6 +53,7 @@ function NavBar() {
                         {section.navLabel || section.title}
                     </a>
                 ))}
+                <a href={`#${videos.id}`} onClick={closeMenu}>{videos.navLabel}</a>
             </nav>
         </>
     );
