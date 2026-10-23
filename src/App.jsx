@@ -18,6 +18,7 @@ function App() {
         {sections.map((section) => (
           <ArticleSection
             key={section.id}
+            id={section.id}
             sectionTitle={section.title}
             articles={section.articles}
           />

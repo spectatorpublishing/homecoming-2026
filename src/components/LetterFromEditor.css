@@ -25,15 +25,15 @@
 
 .letter-content {
   order: 1;
-  width: 513px;
-  padding-top: 25px;
+  width: 50rem;
+  padding-top: 2rem;
 }
 
 .letter-body {
   font-family: 'Bitter', serif;
-  font-size: 15px;
-  line-height: 1.4;
-  margin: 0 0 20px 0;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin: 0 0 0.5rem 0;
   text-align: left;
 }
 
@@ -52,13 +52,13 @@
 .signature-name {
   display: block;
   font-family: 'Nothing You Could Do', cursive;
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 
 .signature-title {
   display: block;
   font-family: 'Bitter', serif;
-  font-size: 15px;
+  font-size: 1.5;
 }
 
 @media (max-width: 768px) {

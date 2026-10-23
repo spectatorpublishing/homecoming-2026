@@ -6,18 +6,21 @@ function LetterFromEditor() {
       <img src="/homecoming_illo.jpeg" alt="Letter from the Editor" className="letter-image" />
 
       <div className="letter-content">
-        <p className="letter-body">Dear Reader,</p>
-        <p className="letter-body">[NOT REAL TEXT] Welcome to Columbia! As you immerse yourself in the University community and settle into your new home, you will encounter a campus facing a pivotal moment in its history as you, too, undergo significant change. You probably have lots of lingering questions about what the years ahead will look like and how to navigate all of Columbia's different facets. Inside this special issue, you will find everything we at Spectator think first-year students should know as you acquaint yourself with campus life.</p>
-        <p className="letter-body">Spectator is a financially independent nonprofit organization and the largest student-run news media group on campus, serving tens of thousands of readers across Columbia, Morningside Heights, and West Harlem. We have a 148-year tradition of documenting history as it unfolds through in-depth, well-reported stories that hold institutional power to account.</p>
-        <p className="letter-body">Joining Spec is one of the best ways to kick off your four years at Columbia. When you become a member of the Spec family, nestled in our office in Riverside Church, you step into a community of sharp and passionate students who care deeply about the work they do. Joining Spec is one of the best ways to kick off your four years at Columbia. When you become a member of the Spec family, nestled in our office in Riverside Church. Joining Spec is one of the best ways to kick off your four years at Columbia. When you become a member of the Spec family, nestled in our office in Riverside Church, you step into a community of sharp and passionate students who care deeply about the work they do. Joining Spec is one of the best ways to kick off your four years at Columbia. When you become a member of the Spec family, nestled in our office in Riverside Church.</p>
+        <p className="letter-body">Dear reader,</p>
+        <p className="letter-body">The hunt is on.</p>
+        <p className="letter-body">In 2024, Columbia broke a 63-year curse, winning the Ivy League championship. This time, the wait may not be so long.</p>
+        <p className="letter-body">Following a miraculous, last-second victory over Penn, your Columbia Lions enter homecoming with a shot to assert their claim in a wide-open Ivy League season. With a team led by new faces like first-year wide receiver Bryce Coleman, rising stars like sophomore defensive back MD Awe, and veteran leaders including senior quarterback Chase Goodwin, the Light Blue is making noise, and a first Homecoming win since 2021 could be the turning point.</p>
+        <p className="letter-body">In this special edition, Spectator Sports covers everything from what’s happening on the field to the sidelines. Our writers are bringing you an introduction to Columbia’s precocious rookies, a look inside head coach Jon Poppe’s process in his third year, and a check-in with team captains senior linebacker Charlie Newton and junior defensive back Caleb Solomon. Beyond the gridiron, we spoke with the pep band, dug into the archives, and caught up with past stars.</p>
+        <p className="letter-body">Whether you’re a first-year student making your maiden trek to Baker or an alum who has gone more times than you can count, this year’s Homecoming promises to be special. </p>
+        <p className="letter-body">Roar, Lion, Roar.</p>
         <div className="signatures">
           <p className="signature">
-            <span className="signature-name">First Last</span>
-            <span className="signature-title">Editor in Chief</span>
+            <span className="signature-name">Nicholas Fink</span>
+            <span className="signature-title">Sports Editor</span>
           </p>
           <p className="signature">
-            <span className="signature-name">First Last</span>
-            <span className="signature-title">Managing Editor</span>
+            <span className="signature-name">Arielle Reider</span>
+            <span className="signature-title">Sports Editor</span>
           </p>
         </div>
       </div>

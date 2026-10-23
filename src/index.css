@@ -1,0 +1,12 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* On mobile, land nav jumps below the fixed hamburger button */
+@media (max-width: 767px) {
+  #photos,
+  section[id] {
+    scroll-margin-top: 72px;
+  }
+}

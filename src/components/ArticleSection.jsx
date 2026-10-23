@@ -1,8 +1,8 @@
 import ArticleCard from "./ArticleCard";
 
-function ArticleSection({sectionTitle, articles}) {
+function ArticleSection({id, sectionTitle, articles}) {
     return (
-        <div className="section-container">
+        <section id={id} className="section-container">
             <h2 className="section-title">{sectionTitle}</h2>
             <div className='article-section'>
             {articles.map((article, i) => (
@@ -15,7 +15,7 @@ function ArticleSection({sectionTitle, articles}) {
                 />
             ))}
             </div>
-        </div>
+        </section>
         
     );
 }

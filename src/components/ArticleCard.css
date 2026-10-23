@@ -100,3 +100,8 @@
     max-width: 325.34px;
   }
 }
+@media (max-width: 767px) {
+  .section-title {
+    text-align: center;
+  }
+}
