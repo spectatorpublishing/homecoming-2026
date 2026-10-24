@@ -34,12 +34,6 @@ export default {
       url: 'https://www.columbiaspectator.com/sports/2026/10/21/can-football-break-a-4-year-homecoming-losing-streak-against-dartmouth/',
     },
     {
-      title: "Numbers game: a data-driven dive into Homecoming’s history",
-      byline: 'Evan Van Brunt, Sofía Polar and Emilia Lebeau',
-      image: 'https://www.columbiaspectator.com/resizer/v2/KEAFE2BB7ZBDRFCIBO7EQL5IXQ.jpg?auth=ca3d8d36ff4d4b5f0eebc8b1f09038b8c4f2ad92f683b71b14ffadfac3135e3d&width=1200',
-      url: 'https://www.columbiaspectator.com/sports/2026/10/20/numbers-game-a-data-driven-dive-into-homecomings-history/',
-    },
-    {
       title: "Justin Townsend, CC ’25, is on his third effort",
       byline: 'Caleb Lee',
       image: 'https://www.columbiaspectator.com/resizer/v2/BIV4VMLW5ZB7DOGGJWVTV5ABNM.jpg?auth=887ee1f9c4f729bc66e9bd49769c56ebf2fedaa8965e8516c83fa4cde5a2749a&width=1200',
