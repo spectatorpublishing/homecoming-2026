@@ -6,7 +6,6 @@ body {
 .credits {
   background-color: #4D95BC;
   width: 100%;
-  min-height: 100vh;
   padding: 120px 60px 120px;
   box-sizing: border-box;
 }

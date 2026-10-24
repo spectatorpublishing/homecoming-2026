@@ -105,7 +105,7 @@
 
 .print-book {
     /* Pages are 12" x 22" broadsheet halves */
-    --page-h: min(760px, 78vh, calc((100vw - 260px) * 0.9167));
+    --page-h: min(760px, 78svh, calc((100vw - 260px) * 0.9167));
     --page-w: calc(var(--page-h) * 864 / 1584);
     position: relative;
     width: calc(var(--page-w) * 2);

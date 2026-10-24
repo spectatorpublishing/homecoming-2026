@@ -13,7 +13,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     gap: 80px;
     padding: 30px 16px;
 }
