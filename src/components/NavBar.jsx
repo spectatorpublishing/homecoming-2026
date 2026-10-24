@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { Fragment, useState, useEffect } from 'react';
 import './NavBar.css';
 import sections from '../data/index.js';
 import videos from '../data/videos.js';
@@ -50,11 +50,15 @@ function NavBar() {
                 <a href="#home" onClick={closeMenu}>Home</a>
                 <a href="#photos" onClick={closeMenu}>Photos</a>
                 {sections.map((section) => (
-                    <a key={section.id} href={`#${section.id}`} onClick={closeMenu}>
-                        {section.navLabel || section.title}
-                    </a>
+                    <Fragment key={section.id}>
+                        <a href={`#${section.id}`} onClick={closeMenu}>
+                            {section.navLabel || section.title}
+                        </a>
+                        {section.id === 'audio' && (
+                            <a href={`#${videos.id}`} onClick={closeMenu}>{videos.navLabel}</a>
+                        )}
+                    </Fragment>
                 ))}
-                <a href={`#${videos.id}`} onClick={closeMenu}>{videos.navLabel}</a>
                 <a href={`#${printEdition.id}`} onClick={closeMenu}>{printEdition.navLabel}</a>
             </nav>
         </>

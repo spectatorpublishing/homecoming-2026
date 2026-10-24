@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import NavBar from "./components/NavBar.jsx";
 import LetterFromEditor from "./components/LetterFromEditor.jsx";
 import PhotoCarousel from "./components/PhotoCarousel.jsx";
@@ -20,18 +21,22 @@ function App() {
       <PhotoCarousel />
       <div className="article-page-container">
         {sections.map((section) => (
-          <ArticleSection
-            key={section.id}
-            id={section.id}
-            sectionTitle={section.title}
-            articles={section.articles}
-          />
+          <Fragment key={section.id}>
+            <ArticleSection
+              id={section.id}
+              sectionTitle={section.title}
+              articles={section.articles}
+            />
+            {/* Video sits right after the Audio section */}
+            {section.id === "audio" && (
+              <VideoSection
+                id={videos.id}
+                sectionTitle={videos.title}
+                reels={videos.reels}
+              />
+            )}
+          </Fragment>
         ))}
-        <VideoSection
-          id={videos.id}
-          sectionTitle={videos.title}
-          reels={videos.reels}
-        />
       </div>
       <PrintEdition
         id={printEdition.id}
